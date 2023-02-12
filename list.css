@@ -1,0 +1,43 @@
+.list{
+	background-color: #efefef;
+	width: 34vw;
+	height: 80vh;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 1.0);
+	text-align: center;
+}
+.container{
+	display: flex;
+/*	по горизантали*/
+	justify-content: center;
+/*	по вертикали */
+	align-items: center;
+}
+.photo1{
+	width: 100%;
+	height: 80%;
+	border-radius: 10px;
+	background-image: url(img/img4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.photo2{
+	width: 100%;
+	height: 80%;
+	border-radius: 10px;
+	background-image: url(img/img2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.photo3{
+	width: 100%;
+	height: 80%;
+	border-radius: 10px;
+	background-image: url(img/img3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+body{
+	background-image:url(img/img1.jpg);
+}
